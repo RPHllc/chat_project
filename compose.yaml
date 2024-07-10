@@ -1,0 +1,25 @@
+name: ollama_chat
+services:
+  app:
+    build:
+      context: .
+      args:
+        - NODE_VERSION=${NODE_VERSION}
+    image: rpontual/ollama_chat_app:latest
+    ports:
+      - ${EXTERNAL_PORT}:3000
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_OLLAMA_URL=${NEXT_PUBLIC_OLLAMA_URL}
+    develop:
+      watch:
+        - action: sync
+          src: .
+          dest: /app
+          ignore:
+            - node_modules/
+            - .next/
+          path: .
+          target: app
+        - action: rebuild
+          path: ./package.json
