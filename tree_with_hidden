@@ -1,0 +1,124 @@
+.
+├── .dockerignore
+├── .eslintrc.json
+├── .git
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               └── HEAD
+│   ├── objects
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-d33e15e18634143429fcbda2b42993e6cd6eba8d.idx
+│   │       └── pack-d33e15e18634143429fcbda2b42993e6cd6eba8d.pack
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       └── HEAD
+│       └── tags
+├── .gitignore
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── components.json
+├── compose.yaml
+├── next.config.mjs
+├── ollama-nextjs-ui.gif
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── next.svg
+│   ├── ollama.png
+│   ├── user.jpg
+│   └── vercel.svg
+├── src
+│   ├── app
+│   │   ├── [id]
+│   │   │   └── page.tsx
+│   │   ├── api
+│   │   │   ├── chat
+│   │   │   │   └── route.ts
+│   │   │   ├── model
+│   │   │   │   └── route.ts
+│   │   │   └── tags
+│   │   │       └── route.ts
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── hooks
+│   │   │   ├── useLocalStorageData.ts
+│   │   │   └── useSpeechRecognition.ts
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── chat
+│   │   │   ├── chat-bottombar.tsx
+│   │   │   ├── chat-layout.tsx
+│   │   │   ├── chat-list.tsx
+│   │   │   ├── chat-topbar.tsx
+│   │   │   └── chat.tsx
+│   │   ├── code-display-block.tsx
+│   │   ├── edit-username-form.tsx
+│   │   ├── emoji-picker.tsx
+│   │   ├── mode-toggle.tsx
+│   │   ├── pull-model-form.tsx
+│   │   ├── pull-model.tsx
+│   │   ├── sidebar-skeleton.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── ui
+│   │   │   ├── avatar.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── dialog.tsx
+│   │   │   ├── dropdown-menu.tsx
+│   │   │   ├── form.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── popover.tsx
+│   │   │   ├── resizable.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── sheet.tsx
+│   │   │   ├── skeleton.tsx
+│   │   │   ├── sonner.tsx
+│   │   │   ├── textarea.tsx
+│   │   │   └── tooltip.tsx
+│   │   ├── user-settings.tsx
+│   │   └── username-form.tsx
+│   ├── lib
+│   │   ├── model-helper.ts
+│   │   └── utils.ts
+│   ├── providers
+│   │   └── theme-provider.tsx
+│   └── utils
+│       └── initial-questions.ts
+├── tailwind.config.ts
+├── tree_with_hidden
+└── tsconfig.json
